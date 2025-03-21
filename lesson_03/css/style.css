@@ -1,0 +1,64 @@
+/* Скидання стилів */
+/* @import url("reset.css"); */
+a {
+	text-decoration: none;
+	display: inline-block;
+	color: inherit;
+}
+
+h1{
+	 color: red;
+}
+.header-container .link{
+	color: rgb(168, 6, 141);
+}
+
+#climate-heading{
+	color: green;
+}
+[class*="population"]{
+	color: yellow;
+}
+.main-content.religion{
+	color: orange;
+}
+.timezone,.transport{
+	color: purple;
+}
+
+.zona + .car{
+	color: rgb(221, 14, 49);
+}
+.box ~ p{
+	color: rgb(160, 143, 146);
+}
+div.box{
+	color: blueviolet;
+}
+.zona *{
+	color: rgb(15, 6, 191);
+}
+div>div{
+	color: rgb(192, 227, 14);
+}
+div > ul > li{
+	color: red;
+}
+div > ul > li ~ li{
+	color: green
+}
+div > ul > li >ul > li{
+	color: blue;
+}
+div > ul > li >ul > li ~ li{
+	color: orange;
+}
+div > ul > li >ul > li > ol >li{
+	color: #4597f7;
+}
+div > ul > li >ul > li > ol >li ~ li{
+	color: #5d5d5d;
+}
+div > ul > li > ul > li > span{
+	color: #a0f0fc;
+}
