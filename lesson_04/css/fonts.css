@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'MADE TheArtist Script';
+	src: local('MADE TheArtist Script'), local('MADETheArtistScript'), url('../fonts/Madetheartistscript.woff2') format('woff2'), url('../fonts/Madetheartistscript.woff') format('woff'), url('Madetheartistscript.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Christmas ScriptC';
+	src: local('Christmas ScriptC'), local('ChristmasScriptC'), url('../fonts/christmasscriptc.woff2') format('woff2'), url('../fonts/christmasscriptc.woff') format('woff'), url('christmasscriptc.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Gunny Rewritten';
+	src: local('Gunny Rewritten'), local('GunnyRewritten'), url('../fonts/gunnyrewritten.woff2') format('woff2'), url('../fonts/gunnyrewritten.woff') format('woff'), url('gunnyrewritten.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}

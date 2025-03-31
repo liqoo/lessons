@@ -1,0 +1,39 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+body{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	line-height: 1.5;
+	font-size: 18px;
+}
+.info-block-title{
+	font-size: 20px;
+	color: #1A1A1A;
+}
+.info-text , .info-text-2{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	color: #808080;
+}
+.font{
+font-family: 'MADE TheArtist Script', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 1.5;
+	color: #1A1A1A;
+}
+.font-2{
+	font-family: 'Christmas ScriptC', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 1.5;
+	color: #1A1A1A;
+}
+.font-3{
+	font-family: 'Gunny Rewritten', sans-serif;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 1.5;
+	color: #1A1A1A;
+}
