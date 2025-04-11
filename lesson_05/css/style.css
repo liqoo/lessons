@@ -1,0 +1,106 @@
+@import url("fonts.css");
+@import url("reset.css");
+.advantages {
+	padding: 112px 0;
+	background-color: #231F8B;
+	overflow: hidden;
+	font-family: "Montserrat", sans-serif;
+}
+
+.container {
+	width: 100%;
+	max-width: 1050px;
+	margin: 0 auto;
+}
+
+.advantages-inner {
+	margin-bottom: 70px;
+}
+
+.advantages-subtitle {
+	margin-bottom: 10px;
+	font-weight: 700;
+	color: #5A54F2;
+	line-height: 1.71;
+	letter-spacing: 0.2px;
+}
+
+.advantages-title {
+	margin-bottom: 10px;
+	font-family: "Circular Std", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.advantages-text {
+	max-width: 765px;
+	font-family: "Circular Std", sans-serif;
+	line-height: 1.43;
+	letter-spacing: 0.2px;
+	color: #FFF;
+}
+
+.cards {
+	width: 100%;
+	min-height: 360px;
+	margin: 0 -20px;
+	font-size: 0;
+}
+
+.cards-item {
+	width: 25%;
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 14px;
+	color: #000;
+}
+
+.cards-content {
+	padding: 35px 40px;
+	background-color: #fff;
+}
+
+.cards-content img {
+	width: 100%;
+	max-width: 72px;
+	height: 72px;
+	margin-bottom: 20px;
+}
+
+.cards-title {
+	margin-bottom: 20px;
+	font-family: "Circular Std", sans-serif;
+	font-size: 16px;
+	color: #252B42;
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 0.1px;
+}
+
+.cards-line {
+	max-width: 50px;
+	height: 2px;
+	margin-bottom: 20px;
+	font-size: 0;
+	color: transparent;
+	background-color: #E74040;
+}
+
+.cards-text {
+	color: #737373;
+	line-height: 1.43;
+	letter-spacing: 0.2px;
+}
+
+.cards-blue, .cards-white{
+	color: #FFF;
+	background-color: #5A54F2;
+}
+.cards-odd {
+	vertical-align: top;
+}
+
+.cards-even {
+	padding-top: 48px;
+}
