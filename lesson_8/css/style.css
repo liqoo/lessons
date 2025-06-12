@@ -1,0 +1,156 @@
+@import url("reset.css");
+@import url("fonts.css");
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+}
+.container{
+	max-width: 1440px	;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.header{
+	background: #7b5151;
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+}
+.content{
+	background: #ad6767;
+}
+
+.svg-list , .webp-list{
+	padding: 30px 0;
+	font-size: 40px;
+	color: aqua;
+
+}
+ul > li:not(:last-child){
+	margin-bottom: 40px;
+}
+ul>li:hover{
+	color: rgb(41, 231, 231);
+	text-decoration: underline;
+	font-size: 45px;
+}
+
+.svg-1::before{
+	content: "";
+	background: url(../img/svg/find.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.svg-2::before{
+	content: "";
+	background: url(../img/svg/check.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.svg-3::before{
+	content: "";
+	background: url(../img/svg/diagrama.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.svg-4::before{
+	content: "";
+	background: url(../img/svg/human.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.svg-5::before{
+	content: "";
+	background: url(../img/svg/medal.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.svg-6::before{
+	content: "";
+	background: url(../img/svg/mount.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.svg-7::before{
+	content: "";
+	background: url(../img/svg/people.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.svg-8::before{
+	content: "";
+	background: url(../img/svg/people_2.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.svg-9::before{
+	content: "";
+	background: url(../img/svg/rocket.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+.svg-10::before{
+	content: "";
+	background: url(../img/svg/skoba.svg) no-repeat center;
+	width: 40px;
+	height: 40px;
+	background-size: 40px 40px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.human{
+	border-radius: 150px 0px;
+	width: 400px;
+	height: 400px;
+	margin-right: 20px;
+}
+.nature{
+	width: 600px;
+	height: 400px;
+	margin-right: 20px;
+}
+.logo1{
+	width: 357px;
+	height: 82px;
+	margin-right: 20px;
+}
+.nature2{
+	width: 1512px;
+	height: 860px;
+}
+
+footer{
+	text-align: center;
+	font-size: 40px;
+	background: #19893d;
+}
